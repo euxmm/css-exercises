@@ -1,17 +1,15 @@
 .odd-number{
     background-color: rgb(254, 174, 188);
-    font-family: Verdana, DejaVu Sans, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #first-even-number{
     color: rgb(61, 61, 197);
     font-size: 36px;
-    font-weight: bold;
 }
 
 .cooler{
     font-size: 24px;
-    font-weight: bold;
 }
 
 #second-even-number{
