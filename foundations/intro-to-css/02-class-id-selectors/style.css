@@ -5,6 +5,17 @@
 
 #first-even-number{
     color: rgb(61, 61, 197);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cooler{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#second-even-number{
+    background-color: rgb(157, 234, 157);
     font-size: 24px;
     font-weight: bold;
 }
