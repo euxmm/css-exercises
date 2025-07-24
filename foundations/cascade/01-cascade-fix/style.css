@@ -22,11 +22,16 @@ to big para and small para*/
   font-size: 22px;
 }
 
-.confirm {
+/* Before it was only applying to confirm-button but 
+because .button is written later thats wining*/
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
+
+/* font-size is still being applied because it 
+doesnt interfere*/
 
 .button {
   background-color: rgb(255, 255, 255);
