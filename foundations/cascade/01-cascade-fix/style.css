@@ -2,16 +2,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Both paragraphs in bold */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+/*We specify more because two classes win to one */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
+
+/* Because both are called para this being aplied 
+to big para and small para*/
 
 .para {
   font-size: 22px;
