@@ -1,8 +1,14 @@
+/*hay que ponerlo en el contenedor porque organiza sus childs que es box
+justify-content alinea en la direccion principal y align-items en el cross*/
+
 .container {
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
