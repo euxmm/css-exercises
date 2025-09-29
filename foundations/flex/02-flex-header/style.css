@@ -3,7 +3,6 @@
   background: papayawhip;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
   align-items: center;
 }
 
@@ -20,6 +19,8 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction:row;
+  /* so there isnt weird padding where the dots used to go*/
+  padding: 0px;
 }
 
 a {
@@ -28,4 +29,15 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  /* this adds space in between links*/
+  margin: 5px;
+}
+
+/* this centers the logos and keeps the links at the edges*/
+.left-links{
+  margin-right: auto;
+}
+
+.right-links{
+  margin-left:auto;
 }
