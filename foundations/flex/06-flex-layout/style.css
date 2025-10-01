@@ -7,6 +7,36 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header{
+
+  /* left links and right links in columns */
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  /* remove bullet points */
+  list-style: none;
+
+  /* top space and left/right space of the links */
+  margin: 0;
+  padding: 20px 10px;
+
+  /* all the links in columns */
+  display: flex;
+
+  /* add space between links */
+  gap: 10px;
+}
+
+a{
+
+  /* remove underline in links */
+  text-decoration: none;
+
+  color: #7c7c7c;
+}
+
 img {
   width: 600px;
 }
