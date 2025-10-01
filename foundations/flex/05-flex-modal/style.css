@@ -24,8 +24,11 @@ body {
   /* Add space between the pop-up edge and the text */
   padding: 20px;
   
-  /* exclamation at one side and text at the other */
+  /* Exclamation at one side and text at the other */
   display: flex;
+
+  /* Equal spacing around the icon  */
+  gap: 20px;
 
 }
 
@@ -33,6 +36,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.header{
+  font-weight: bold;
+  font-size: larger;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
