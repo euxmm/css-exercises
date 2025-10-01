@@ -2,7 +2,9 @@ body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
-  gap:52px;
+
+  /* space between title and items */
+  gap:32px;
 }
 
 img {
@@ -10,25 +12,33 @@ img {
   height: 100px;
 }
 
+.text {
+  width: 200px;
+}
+
 .items{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 32px;
+
+  /* one row for images one row for text */
+  flex-direction: column;
   }
 
-.texts{
+.texts, .images{
   display: flex;
-  justify-content: center;
-  width: 200px;
-  gap: 32px;
+
+  /* gap between items */
+  gap: 52px;
+
+  /* arrange the items in the page so there's space between them */
+  justify-content: space-around;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
   display: flex;
+
+  /* centers the title horizontally */
   justify-content: center;
 }
 
