@@ -20,8 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* Add space between the pop-up edge and the text */
+  padding: 20px;
+  
+  /* exclamation at one side and text at the other */
+  display: flex;
+
 }
 
+.title-button{
+  display: flex;
+  justify-content: space-between;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -33,6 +44,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* Para que no se estuje */
+  flex-shrink: 0;
 }
 
 .close-button {
