@@ -5,12 +5,21 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header{
 
   /* left links and right links in columns */
   display: flex;
+
+  /* so i can center the logo and stuff with flex body but keeping the links with space between them */
+  align-self: stretch;
+
+  /* right side liks on one side and left on the other */
   justify-content: space-between;
 }
 
