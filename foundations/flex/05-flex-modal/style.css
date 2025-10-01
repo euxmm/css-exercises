@@ -29,7 +29,6 @@ body {
 
   /* Equal spacing around the icon  */
   gap: 20px;
-
 }
 
 .title-button{
@@ -40,6 +39,15 @@ body {
 .header{
   font-weight: bold;
   font-size: larger;
+
+  /* Space betweem title and text  */
+  margin-bottom: 10px;
+}
+
+.text{
+
+  /* Space between text and buttons */
+  margin-bottom: 20px;
 }
 
 .icon {
